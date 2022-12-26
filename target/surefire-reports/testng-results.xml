@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="tests.TestRunner" duration-ms="12048" started-at="2022-12-26T07:50:52Z" finished-at="2022-12-26T07:51:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.TestRunner@69d9c55]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="12048" started-at="2022-12-26T07:50:52Z" finished-at="2022-12-26T07:51:04Z">
+      <class name="tests.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.TestRunner@69d9c55]" name="setUpClass" is-config="true" duration-ms="402" started-at="2022-12-26T12:50:52Z" finished-at="2022-12-26T12:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.TestRunner@69d9c55]" name="runScenario" duration-ms="4443" started-at="2022-12-26T12:50:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-26T12:50:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user wants to execute cryptocurrency mapping case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Backend Scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.TestRunner@69d9c55]" name="runScenario" duration-ms="1260" started-at="2022-12-26T12:50:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-26T12:50:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user wants to execute cryptocurrency mapping case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Backend Scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.TestRunner@69d9c55]" name="runScenario" duration-ms="2515" started-at="2022-12-26T12:50:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-26T12:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user wants to execute cryptocurrency mapping case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Backend Scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.TestRunner@69d9c55]" name="runScenario" duration-ms="1360" started-at="2022-12-26T12:51:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-26T12:51:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user wants to execute cryptocurrency info call"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Backend Scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Validation Failed. Couldn't find Mineable tag]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Validation Failed. Couldn't find Mineable tag
+	at org.testng.Assert.fail(Assert.java:94)
+	at Validations.BackendValidations.validateCryptoInfo(BackendValidations.java:24)
+	at stepdefs.BEstepdefs.user_validates_the_response(BEstepdefs.java:54)
+	at ✽.user validates the API response(file:///home/vend/Documents/coinmarket/src/test/resources/features/Backend.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.TestRunner@69d9c55]" name="runScenario" duration-ms="2020" started-at="2022-12-26T12:51:02Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-26T12:51:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user wants to execute cryptocurrency info call"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Backend Scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:tests.TestRunner@69d9c55]" name="AfterClass" is-config="true" duration-ms="1" started-at="2022-12-26T12:51:04Z" finished-at="2022-12-26T12:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.TestRunner@69d9c55]" name="tearDownClass" is-config="true" duration-ms="37" started-at="2022-12-26T12:51:04Z" finished-at="2022-12-26T12:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- tests.TestRunner -->
+</testng-results>

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: tests.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.229 sec <<< FAILURE!
+runScenario(tests.TestRunner)  Time elapsed: 1.36 sec  <<< FAILURE!
+java.lang.AssertionError: Validation Failed. Couldn't find Mineable tag
+	at org.testng.Assert.fail(Assert.java:94)
+	at Validations.BackendValidations.validateCryptoInfo(BackendValidations.java:24)
+	at stepdefs.BEstepdefs.user_validates_the_response(BEstepdefs.java:54)
+	at ✽.user validates the API response(file:///home/vend/Documents/coinmarket/src/test/resources/features/Backend.feature:24)
+

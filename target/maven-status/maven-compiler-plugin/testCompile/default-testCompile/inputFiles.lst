@@ -1,0 +1,9 @@
+/home/vend/Documents/coinmarket/src/test/java/General/ReusableMethods.java
+/home/vend/Documents/coinmarket/src/test/java/Configuration/EnvGlobals.java
+/home/vend/Documents/coinmarket/src/test/java/Configuration/Endpoints.java
+/home/vend/Documents/coinmarket/src/test/java/tests/TestRunner.java
+/home/vend/Documents/coinmarket/src/test/java/Configuration/ApplicationConfigReader.java
+/home/vend/Documents/coinmarket/src/test/java/Validations/BackendValidations.java
+/home/vend/Documents/coinmarket/src/test/java/stepdefs/BEstepdefs.java
+/home/vend/Documents/coinmarket/src/test/java/Configuration/configProperties.java
+/home/vend/Documents/coinmarket/src/test/java/General/WebDriverFactory.java

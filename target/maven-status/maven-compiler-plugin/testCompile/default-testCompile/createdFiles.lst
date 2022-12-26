@@ -1,0 +1,9 @@
+Configuration/ApplicationConfigReader.class
+Configuration/configProperties.class
+stepdefs/BEstepdefs.class
+Validations/BackendValidations.class
+General/WebDriverFactory.class
+Configuration/EnvGlobals.class
+Configuration/Endpoints.class
+tests/TestRunner.class
+General/ReusableMethods.class
